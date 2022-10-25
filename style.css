@@ -70,12 +70,11 @@ body{
     width: 17em;
 }
 .started .head-sent{
-    display: flex;
     border: 2px solid cyan;
     max-width: 1200px;
-    width: 90%;
     margin: 20em auto auto auto;
-    justify-content:space-between;
+    position: relative;
+    height: 25em;
 }
 
 .started .head-sent .left .thoughtful{
@@ -85,21 +84,20 @@ body{
     font-size: 9.6rem;
     line-height: 110px;
     letter-spacing: 0.05em;
-    
 }
 .left {
-    border: 2px solid cyan;
+    /*width: 53%;
+    text-align: right;
+    flex-grow: 1;*/
+    position: absolute;
+    left: 8.5%;
 }
 .right{
-    border: 2px solid cyan;
-}
-.end{
-    border: 2px solid cyan;
-    width: 12.2em;
-}
-.start{
-    border: 2px solid cyan;
-    width: 2em;
+    /*flex-grow: 2;
+    width: 44%;*/
+    position: absolute;
+    left:55%
+
 }
 .started .head-sent .right .gifting{
     font-family: 'Helvetica';
